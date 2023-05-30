@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Parking Lot Booking</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Parking Lot Booking</h1>
+    <div class="parking-lot">
+      <h2>Parking Lot Status</h2>
+      <div class="slots">
+        <div class="slot empty" data-slot="1">Slot 1</div>
+        <div class="slot empty" data-slot="2">Slot 2</div>
+        <div class="slot empty" data-slot="3">Slot 3</div>
+        <div class="slot empty" data-slot="4">Slot 4</div>
+        <div class="slot empty" data-slot="5">Slot 5</div>
+        <div class="slot empty" data-slot="6">Slot 6</div>
+      </div>
+    </div>
+    <form id="booking-form" action="#" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <br>
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" required pattern="[0-9]{10}">
+      <br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <br>
+      <label for="date">Date:</label>
+      <input type="date" id="date" name="date" required>
+      <br>
+      <label for="slot">Slot Number:</label>
+      <select id="slot" name="slot" required>
+        <option value="">Select a slot</option>
+        <option value="1">Slot 1</option>
+        <option value="2">Slot 2</option>
+        <option value="3">Slot 3</option>
+        <option value="4">Slot 4</option>
+        <option value="5">Slot 5</option>
+        <option value="6">Slot 6</option>
+      </select>
+      <br>
+      <input type="submit" value="Book Now">
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

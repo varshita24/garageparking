@@ -1,0 +1,61 @@
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+.parking-lot {
+  margin-top: 50px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.slots {
+  display: flex;
+  justify-content: center;
+}
+
+.slot {
+  width: 100px;
+  height: 50px;
+  border: 1px solid #ccc;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.empty {
+  background-color: #c3e6cb;
+}
+
+.occupied {
+  background-color: #f8d7da;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="date"],
+input[type="email"],
+select {
+  width: 200px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
